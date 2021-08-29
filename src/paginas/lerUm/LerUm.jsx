@@ -2,6 +2,7 @@ import * as Lu from './styledLu';
 import { useHistory } from 'react-router';
 
 
+
 export default function LerUm(props){
 
     
@@ -22,11 +23,11 @@ export default function LerUm(props){
     
     return(
         <>
-        <h1>{item.nome}</h1>
+        <Lu.Title>{item.nome}</Lu.Title>
         <Lu.Card>
-            {/* <Lu.ImgBloco>
-                <Lu.Img src={item.url} alt="Personagem"/>
-            </Lu.ImgBloco> */}
+             <Lu.ImgBloco>
+                <Lu.Img src={item} alt="Personagem"/>
+            </Lu.ImgBloco> 
     
             <Lu.Texto><strong>Exercício: {item.nome}</strong></Lu.Texto>
             <Lu.Texto><strong>Número de séries: {item.series}</strong></Lu.Texto>

@@ -1,4 +1,9 @@
 import styled from "styled-components";
+import { Titulo } from '../../componentes/titulo/Titulo';
+
+export const Title = styled(Titulo)`
+    justify-content: center;
+`;
 
 export const Card = styled.div`
     width: 50%;
@@ -15,7 +20,7 @@ export const ImgBloco = styled.div `
 
 export const Img = styled.img `
     max-width: 20rem;
-    border-radius: 0%.5rem;
+    border-radius: 0.5rem;
     height: auto;
     margin-bottom: 1rem;
 `;

@@ -41,14 +41,15 @@ export default function Criar(){
                 <C.Select onChange={e => setNome(e.target.value)} required>
                     <C.Option></C.Option>
                     <C.Option>Supino</C.Option>
-                    <C.Option>Crucifixo</C.Option>
-                    <C.Option>Cross Over</C.Option>
-                    <C.Option>Pull Over</C.Option>
+                    <C.Option>CrossOver</C.Option>
+                    <C.Option>PullOver</C.Option>
                     <C.Option>Remada lateral</C.Option>
-                    <C.Option>Flexora</C.Option>
+                    <C.Option>Barra Fixa</C.Option>
+                    <C.Option>Adutora</C.Option>
                     <C.Option>Extensora</C.Option>
                     <C.Option>Agachamento</C.Option>
                     <C.Option>Afundo</C.Option>
+                    <C.Option>Leg Press</C.Option>
                 </C.Select>
                 
                 <C.Label htmlFor="series">Números de séries:</C.Label>

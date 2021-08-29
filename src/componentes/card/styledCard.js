@@ -9,12 +9,16 @@ export const CardArea = styled.div `
     margin: 0.5rem;
     cursor: pointer;
     transition: 200ms;
-    height: 23rem;
+    height: 20rem;
+    width: 13rem;
     overflow: hidden;
 
 
     &:hover{
-        transform: rotate(3deg);
+    transform: scale(1.4);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
     }
 `;
 
@@ -26,9 +30,9 @@ export const CardImg = styled.img `
 `;
 
 export const Nome = styled.h3 `
-    color: #e76a24;
+    color: red;
     text-align: center;
     padding: 0.5rem;
     background-color: #ffffff;
-    font-size: 2em;
+    font-size: 1.3em;
 `;
