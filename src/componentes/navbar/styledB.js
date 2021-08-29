@@ -11,10 +11,10 @@ export const NavBar = styled.div `
 
 export const Img = styled.img `
     display: flex;
-    width: 7rem;
+    width: 10rem;
+    height: 8rem;
     padding: 0.5rem 0;
     margin-left: 1%;
-
 `;
 
 export const Lista = styled.ul `

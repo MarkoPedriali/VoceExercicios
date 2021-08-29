@@ -12,7 +12,10 @@ export default function Container(){
     return(
         <>
         <C.Container>
-            <C.Lateral></C.Lateral>
+            <C.Lateral>
+                <p>Anúncio</p>
+                <C.Img src='http://www.naturaltechsuplementos.com.br/img/sorteio-instagram-1.jpeg'></C.Img>
+            </C.Lateral>
             <C.Central>
                 <Switch>
                     <Route exact={true} path="/" component={LerTodos}/>

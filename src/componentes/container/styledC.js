@@ -5,21 +5,29 @@ export const Container = styled.div `
     //border-style: solid;
     width: 100%;
     margin: auto;
-  
 `;
 
 export const Lateral = styled.div `
-    width: 20%;
-    height: 39vw;
-    margin-top: 2%;
+    width: 20vw;
+    margin: 2%;
+    margin-top: 5rem;
+    
     //border-style: solid;
-    border-color: black;
-    background-image: url('https://vilamulher.com.br/imagens/default/2011/10/13/malhacao-para-magrinhas-68-324.jpg');
-    background-repeat: no-repeat; 
-    background-position-x: -3rem;
+    /* border-color: black;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/originals/64/ef/b9/64efb95bc13364a7cd09440381783167.jpg');
+    background-repeat: no-repeat;  */
+
+`;
+
+export const Img = styled.img`
+    max-width: 15rem;
+    height: 18rem;
+    object-fit: cover;
 `;
 
 export const Central = styled.div`
+    margin-top: 1.2rem;
     width: 60%;
     justify-content: center;
     //border-style: solid;

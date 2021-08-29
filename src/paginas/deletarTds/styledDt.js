@@ -1,5 +1,10 @@
 import styled from "styled-components";
 import { Paragrafo } from '../../componentes/paragrafo/styledP';
+import { Titulo } from "../../componentes/titulo/Titulo";
+
+export const Title = styled(Titulo)`
+    text-align: center;
+`;
 
 export const Texto =styled(Paragrafo)`
     text-align: center;

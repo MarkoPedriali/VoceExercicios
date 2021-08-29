@@ -4,7 +4,7 @@ import logo from './logo.png'
 export default function NavBar(){
     return(
         <NV.NavBar>
-            <NV.Img src={logo} alt="Você Exercícios"/>
+            <NV.Img src={logo} alt="Logo Você Exercícios"/>
             <NV.Lista>
                 <NV.ListaItem>
                     <NV.LinkPag to="/">Início</NV.LinkPag>

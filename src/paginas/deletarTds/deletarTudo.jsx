@@ -32,7 +32,7 @@ export default function DeletarTudo(){
             <Loading/> ) : (
                 <>
 
-                <h1>Deletar tudo</h1>
+                <Dt.Title>Deletar tudo</Dt.Title>
                 <Dt.Texto>Todos os registros serão apagados definitivamente. Deseja continuar?</Dt.Texto>
             
                 <Dt.BotaoArea>
