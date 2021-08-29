@@ -13,7 +13,7 @@ export default function NavBar(){
                     <NV.LinkPag to="/criar">Criar</NV.LinkPag>
                 </NV.ListaItem>
                 <NV.ListaItem>
-                    <NV.LinkPag to="/deletar">Deletar</NV.LinkPag>
+                    <NV.LinkPag to="/deletartodos">Deletar</NV.LinkPag>
                 </NV.ListaItem>
                 <NV.ListaItem>
                     <NV.LinkPag to="/sobre">Sobre</NV.LinkPag>

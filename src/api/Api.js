@@ -8,8 +8,8 @@ export const Api = {
     lerUmUrl: (id) => Api.baseUrl + '/' + id,
     criarUrl: () => Api.baseUrl + '/',
     deletarTudoUrl: () => Api.baseUrl + '/',
-    deletarUm: (id) => Api.baseUrl + '/' + id,
-    atualizarUm : (id) => Api.baseUrl + '/' + id,
+    deletarUmURL: (id) => Api.baseUrl + '/' + id,
+    atualizarUrl : (id) => Api.baseUrl + '/' + id,
 
 
 
@@ -52,8 +52,19 @@ export const Api = {
         }
 
         )
-    })
+    }),
 
     //UPDATE REQUEST
+    buildApiPutRequest :(url, body) =>{
+        return fetch(url , {
+            method: 'PUT',
+            headers: new Headers({
+                Authorization: Api.authorization,
+                'Content-Type': 'application/json',
+
+            }),
+            body: JSON.stringify(body)
+        })
+    }
 
 }

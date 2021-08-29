@@ -15,7 +15,7 @@ export default function Criar(){
     const item = {
         nome: nome,
         reps: reps,
-        series: reps
+        series: series
     }
 
     const submitHandler = async event => {
