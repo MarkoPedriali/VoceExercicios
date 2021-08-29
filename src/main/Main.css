@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+
+}
+
+body, html{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
