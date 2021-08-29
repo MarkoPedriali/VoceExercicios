@@ -13,7 +13,7 @@ export default function Container(){
         <>
         <C.Container>
             <C.Lateral></C.Lateral>
-            <C.Conteudo>
+            <C.Central>
                 <Switch>
                     <Route exact={true} path="/" component={LerTodos}/>
                     <Route path="/criar" component={Criar}/>
@@ -22,7 +22,7 @@ export default function Container(){
                     <Route path="/deletar/:id" component={DeletarUm}/>
                     <Route path="/atualizar/:id" component={AtualizarUm}/>
                 </Switch>
-            </C.Conteudo>
+            </C.Central>
         </C.Container>
         </>
     )

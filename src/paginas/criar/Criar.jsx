@@ -33,10 +33,10 @@ export default function Criar(){
 
     return(
         <>
-        <h1>Adicione um exercício</h1>
+        <C.Title>Adicione um exercício</C.Title>
         <C.Criar>
             <C.Form onSubmit={submitHandler}>
-                <C.Label htmlFor="nome">Nome do exercício</C.Label>
+                <C.Label htmlFor="nome">Nome do exercício:</C.Label>
                 <C.Select onChange={e => setNome(e.target.value)} required>
                     <C.Option></C.Option>
                     <C.Option>Supino</C.Option>
@@ -56,7 +56,7 @@ export default function Criar(){
                 <C.Label>Repetições:</C.Label>
                 <C.Input type="number" min="1" onChange ={ e => setReps(e.target.value)} required/>
 
-                <C.Input type='submit' value ='Adicionar'></C.Input>
+                <C.botao type='submit' value ='ADICIONAR'></C.botao>
             </C.Form> 
         </C.Criar>
         </>
