@@ -10,6 +10,7 @@ export const Card = styled.div`
     display: flex;
     flex-direction: column ;
     margin: 0 auto;
+    margin-top: 0.8rem;
 `;
 
 export const ImgBloco = styled.div `
@@ -33,7 +34,7 @@ export const AreaBotao = styled.div`
 `;
 
 export const BDeletar = styled.button `
-    background-color: #e76a24;
+    background-color: red;
     color:#ffffff;
     font-size: 1.2em;
     padding: 0.4rem 1rem;
@@ -43,7 +44,7 @@ export const BDeletar = styled.button `
     transition : 200ms;
 
     &:hover {
-        background-color: #b15019;
+        background-color: #ec2538;
     }
 
 `;
@@ -63,7 +64,23 @@ export const BEditar = styled.button `
     }
     `;
 
+export const BCancelar = styled.button `
+    background-color: rgb(52, 54, 52);
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    cursor: pointer;
+    transition : 200ms;
+
+    &:hover {
+        background-color: rgb(101, 107, 101);
+    }
+`;
+
     export const Texto = styled.p `
         font-size: 1.2em;
         padding: 0.5rem 0;
+        text-align: center;
     `; 
