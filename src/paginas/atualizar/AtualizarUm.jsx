@@ -39,21 +39,22 @@ export default function AtualizarUm(props){
         <>
             {loading ===true ? <Loading/> :
                 <>
-                    <h1>Adicione um exercício</h1>
+                    <A.Title>Adicione um exercício</A.Title>
             <A.Criar>
             <A.Form onSubmit={submitHandler}>
                 <A.Label htmlFor="nome">Nome do exercício</A.Label>
                 <A.Select onChange={e => setNome(e.target.value)} value ={item.nome} required>
-                    <A.Option></A.Option>
+                <A.Option></A.Option>
                     <A.Option>Supino</A.Option>
-                    <A.Option>Crucifixo</A.Option>
-                    <A.Option>Cross Over</A.Option>
-                    <A.Option>Pull Over</A.Option>
-                    <A.Option>Remada curvada</A.Option>
+                    <A.Option>CrossOver</A.Option>
+                    <A.Option>PullOver</A.Option>
                     <A.Option>Remada lateral</A.Option>
-                    <A.Option>Flexora</A.Option>
+                    <A.Option>Barra Fixa</A.Option>
+                    <A.Option>Adutora</A.Option>
+                    <A.Option>Extensora</A.Option>
                     <A.Option>Agachamento</A.Option>
                     <A.Option>Afundo</A.Option>
+                    <A.Option>Leg Press</A.Option>
                 </A.Select>
 
                 <A.Label htmlFor="series">Números de séries:</A.Label>
@@ -62,7 +63,7 @@ export default function AtualizarUm(props){
                 <A.Label>Repetições:</A.Label>
                 <A.Input type="number" min="1" onChange ={ e => setReps(e.target.value)} value ={item.reps} required/>
 
-                <A.Input type='submit' value ='Adicionar'></A.Input>
+                <A.botao type='submit' value ='Atualizar'></A.botao>
             </A.Form> 
         </A.Criar>
                 </>

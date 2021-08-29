@@ -1,5 +1,10 @@
 import styled from "styled-components";
 import { Paragrafo } from '../../componentes/paragrafo/styledP';
+import { Titulo } from '../../componentes/titulo/Titulo';
+
+export const Title = styled(Titulo)`
+    justify-content: center;
+`;
 
 export const Texto =styled(Paragrafo)`
     text-align: center;
@@ -12,7 +17,7 @@ export const BotaoArea = styled.div `
 `;
 
 export const BotaoDelete = styled.button `
-    background-color: #e76a24;
+    background-color: red;
     color:#ffffff;
     font-size: 1.2em;
     padding: 0.4rem 1rem;
@@ -22,7 +27,7 @@ export const BotaoDelete = styled.button `
     transition : 200ms;
 
     &:hover {
-        background-color: #b15019;
+        background-color: #ec2538;
     }
 
 `;

@@ -36,8 +36,8 @@ export default function DeletarUm(props){
             <Loading/> ) : (
                 <>
 
-                <h1>Deletar</h1>
-                <Du.Texto>Apagar <span>{item.nome}</span> da lista de exercícios. Deseja continuar?</Du.Texto>
+                <Du.Title>Deletar</Du.Title>
+                <Du.Texto>Apagar <span>"{item.nome}"</span> da lista de exercícios. Deseja continuar?</Du.Texto>
             
                 <Du.BotaoArea>
                     <Du.Cancelar onClick={irParaItem}>Cancelar</Du.Cancelar>
