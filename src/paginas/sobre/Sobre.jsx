@@ -1,4 +1,5 @@
 import * as So from './styledSo';
+import perfil from './perfil.jpeg';
 
 export default function Sobre(){
     return(
@@ -34,9 +35,12 @@ export default function Sobre(){
                 Estudo TI há pouco mais de 3 anos. Sou formado como técnico em Redes de Computadores 
                 e atualmente, estudante de desenvolvimento para aplicações Web na BlueEdTech.
 
+                <So.ImgCard>
+                    <So.Img src={perfil}></So.Img>
+                </So.ImgCard>
                 </p>
             </So.Texto>
-       
+                 
         </>
     )
 }

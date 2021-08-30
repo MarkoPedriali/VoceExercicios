@@ -28,20 +28,3 @@ export const Img = styled.img`
   width: 12rem;
   height: 12rem;
 `;
-
-export const SocialBlock = styled.div`
-  padding: 2rem 0;
-  display: flex;
-  justify-content: center;
-  & a {
-    color: #e76a24;
-    & i {
-      padding: 0 0.5rem;
-      font-size: 2.5em;
-      transition: 200ms;
-      &:hover {
-        color: #b15019;
-      }
-    }
-  }
-`;
