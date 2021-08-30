@@ -2,11 +2,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const NavBar = styled.div `
-    display: flex;
-    background-color: rgb(8, 75, 131);
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 75, 131);
     box-shadow: 0px 8px 15px -3px #000000;
-    align-items: flex-end;
+    
+    @media(max-width: 580px){
+        flex-direction: column;
+        align-items: center;   
+    }
 `;
 
 export const Img = styled.img `
@@ -19,9 +24,8 @@ export const Img = styled.img `
 
 export const Lista = styled.ul `
     display: flex;
-    justify-self: center;
     color: white;
-    margin-left: 20%;
+    margin: auto;
 `;
 
 export const ListaItem = styled.li `
@@ -31,6 +35,7 @@ export const ListaItem = styled.li `
 
 export const LinkPag =styled(Link) `
     text-decoration: none;
-    color: white;   
+    color: white;
+    font-size: 1.3rem ;
 `;
 

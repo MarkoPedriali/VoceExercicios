@@ -5,19 +5,20 @@ export const Container = styled.div `
     //border-style: solid;
     width: 100%;
     margin: auto;
+
+    @media(max-width: 580px){
+        justify-content: center;
+    }
 `;
 
 export const Lateral = styled.div `
     width: 20vw;
     margin: 2%;
     margin-top: 5rem;
-    
-    //border-style: solid;
-    /* border-color: black;
-    background-size: cover;
-    background-image: url('https://i.pinimg.com/originals/64/ef/b9/64efb95bc13364a7cd09440381783167.jpg');
-    background-repeat: no-repeat;  */
 
+    @media(max-width: 580px){
+        display: none;
+    }
 `;
 
 export const Img = styled.img`
@@ -32,7 +33,6 @@ export const Central = styled.div`
     justify-content: center;
     //border-style: solid;
     border-color: aqua;
-
     
 `;
 

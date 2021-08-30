@@ -40,7 +40,9 @@ export default function DeletarUm(props){
                 <Du.Texto>Apagar <span>"{item.nome}"</span> da lista de exercícios. Deseja continuar?</Du.Texto>
             
                 <Du.BotaoArea>
-                    <Du.Cancelar onClick={irParaItem}>Cancelar</Du.Cancelar>
+                    <Du.Cancelar 
+                        onClick={irParaItem}>Cancelar
+                    </Du.Cancelar>
                     <Du.BotaoDelete onClick={clickHandler}>Deletar</Du.BotaoDelete>
                 </Du.BotaoArea>
                 
