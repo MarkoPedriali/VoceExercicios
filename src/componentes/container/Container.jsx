@@ -6,6 +6,7 @@ import LerUm from '../../paginas/lerUm/LerUm';
 import DeletarTudo from '../../paginas/deletarTds/deletarTudo';
 import DeletarUm from '../../paginas/deletarUm/DeletarUm';
 import AtualizarUm from '../../paginas/atualizar/AtualizarUm';
+import Sobre from '../../paginas/sobre/Sobre';
 
 
 export default function Container(){
@@ -24,6 +25,7 @@ export default function Container(){
                     <Route path="/deletartodos" component={DeletarTudo}/>
                     <Route path="/deletar/:id" component={DeletarUm}/>
                     <Route path="/atualizar/:id" component={AtualizarUm}/>
+                    <Route path="/sobre" component={Sobre}/>
                 </Switch>
             </C.Central>
         </C.Container>
